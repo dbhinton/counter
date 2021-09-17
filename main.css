@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: helvetica;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    font-size: 40px;
+    width : 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button{
+    height: 60px;
+    width: 80px;
+    font-size: 28px;
+    background-color: grey;
+    margin: 5%;
+    border-radius: 10px;
+
+}
+
+
+
+#plus:hover{
+    background-color: green;
+}
+
+#minus:hover{
+    background-color: red;
+}
+
+
